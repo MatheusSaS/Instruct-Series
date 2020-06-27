@@ -1,0 +1,709 @@
+.App {
+  padding: 0px 20px 0px 0px;
+  background-color: rgb(248, 245, 245);
+}
+/* VIDEO*/
+.player {
+  width: 100%;
+  height: 90%;
+}
+.player video {
+  height: 500px;
+  margin: 86px 0px;
+}
+/* SIDEBAR*/
+.sidebar {
+  width: 250px;
+  height: 975px;
+}
+.sidebar .logo {
+  padding: 20px 25px;
+}
+.sidebar .logo img {
+  height: 60px;
+}
+.sidebar .nav {
+  padding: 95px 35px;
+}
+.sidebar .nav .li {
+}
+.sidebar .nav li a {
+  padding: 10px 20px;
+  margin-bottom: 6px;
+}
+.sidebar .nav li a .icon {
+  margin-right: 10px;
+}
+.sidebar .nav li a .lbl {
+  padding-left: 10px;
+}
+.sidebar .nav li a.active {
+  border-left: 2px #ea5252 solid;
+  color: #ea5252;
+  line-height: 1;
+  padding: 1;
+}
+.sidebar .nav li a.on {
+  border-left: 2px #ea5252 solid;
+  color: #ea5252;
+  line-height: 1;
+  padding: 1;
+}
+.sidebar .updated-course {
+  padding: 0px 35px;
+  margin: 100px 0px;
+}
+.sidebar .updated-course .ico {
+  background-color: #ea5252;
+  padding: 15px;
+  border-radius: 18px;
+  margin-right: 10px;
+}
+.sidebar .updated-course .lbl {
+}
+.sidebar .updated-course .lbl .author {
+}
+.sidebar .stats {
+  margin: 70px 50px;
+}
+.sidebar .stats .stats-box {
+  flex-direction: column;
+  width: 110px;
+}
+.sidebar .stats .stats-box .ico {
+  margin-bottom: 10px;
+}
+.sidebar .stats .stats-box .val {
+}
+.sidebar .stats .stats-box .lbl {
+}
+.sidebar .stats .stats-box .ico-points {
+  color: #1aab53;
+}
+.sidebar .stats .stats-box .ico-battery {
+  color: #ea5252;
+}
+.sidebar .me {
+  padding: 0px 40px;
+  margin-bottom: 10px;
+}
+.sidebar .me .photo {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  overflow: hidden;
+  margin-right: 10px;
+
+  background: #eeeeee;
+}
+.sidebar .me .photo img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.sidebar .me .lbl {
+}
+.app-content {
+  flex: 1;
+  padding: 20px 0px;
+}
+
+/* HOME PAGE*/
+.home-page {
+  margin-left: 10px;
+}
+.home-page .section {
+}
+.home-page .section .title {
+  margin-bottom: 20px;
+}
+.home-page .section .tutors {
+}
+.home-page .section .tutors .tutor {
+  border: 2px #ea5252 solid;
+  background: #ffffff;
+  width: 60px;
+  height: 60px;
+  overflow: hidden;
+  margin-right: 20px;
+  border-radius: 50px;
+  padding: 3px;
+}
+.home-page .section .tutors .tutor img {
+  width: 100%;
+  height: 100%;
+  border-radius: 55px;
+}
+.home-page .section .tutors .tutor:hover {
+}
+.home-page .section-b {
+  margin-top: 50px;
+}
+.home-page .section-c {
+  margin-top: 10px;
+}
+.section .courses {
+}
+.section .courses a {
+  flex: 1;
+}
+.section .courses .block {
+  width: 250px;
+  height: 375px;
+  background: #e2e2e2;
+  border-radius: 20px;
+  background-size: cover !important;
+  box-shadow: 1px 1px 10px 5px rgba(0, 0, 0, 0.2),
+    -1px -1px 10px 5px rgba(0, 0, 0, 0.2);
+  transition: 0.4s;
+}
+.section .courses a:last-child {
+  margin-right: auto;
+}
+.section .courses .block:hover {
+  transform: scale(0.9, 0.9);
+  box-shadow: 1px 2px 10px 5px, -1px -1px 10px 10px rgba(0, 0, 0, 0.1);
+}
+.section .courses .block .user {
+}
+.section .courses .block .user .pic {
+  width: 40px;
+  height: 40px;
+  border: 2px #ffffff solid;
+  border-radius: 50%;
+  padding: 3px;
+  margin: 10px;
+}
+.section .courses .block .user .pic img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.section .courses .block .user .meta {
+}
+.section .courses .block .user .meta .name {
+}
+.section .courses .block .course-title {
+  bottom: 15px;
+  left: 15px;
+  right: 15px;
+  background: rgba(0, 0, 0, 0.9);
+  padding: 15px 20px;
+  border-radius: 10px;
+  text-shadow: 1px 1px 1px #000000;
+}
+
+/* RIGHTBAR*/
+.rightbar {
+  flex: 1;
+  padding: 20px 0px;
+  margin-left: 50px;
+}
+.rightbar .search-box {
+  margin: 10px 0px;
+}
+.rightbar .search-box .qry {
+  flex: 1;
+  border: 0px;
+  padding: 15px;
+  background: #f1f1f1;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+.rightbar .search-box .qry:focus {
+  background: #ececec;
+}
+.rightbar .search-box .go {
+  border: 0px;
+  background: #ea5252;
+  padding: 0px 20px;
+  border-radius: 5px;
+}
+.rightbar .search-box .go:hover {
+  background: #d24444;
+}
+.rightbar .courses {
+  flex-direction: column;
+}
+.rightbar .courses .cols {
+  flex-direction: row;
+}
+.rightbar .course-a .block {
+  width: 100%;
+  height: 250px;
+  margin-bottom: 25px;
+  margin-top: 220px;
+}
+.rightbar .courses .cols .block {
+  height: 290px;
+  width: 90%;
+  margin-left: 24px;
+}
+/* ligth-Mode */
+
+/* DARK MODE*/
+.dark-mode {
+  background-color: #1a1818;
+  color: #c5c1c1;
+}
+.dark-mode nav {
+  background-color: #1d1d1d;
+  color: #c5c1c1;
+}
+.toggle-container {
+  margin-top: 25px;
+  margin-left: 25px;
+}
+.checkbox {
+  display: none;
+}
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 55px;
+  height: 31px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 23px;
+  width: 23px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #ea5252;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #ea5252;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(23px);
+  -ms-transform: translateX(23px);
+  transform: translateX(23px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+/* CURSE PREVIEW*/
+.curse-page {
+  margin-left: 10px;
+}
+.curse-info {
+  flex: 1;
+}
+.curse-page .tutor {
+}
+.curse-page .pic {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: #eee;
+  margin-right: 10px;
+}
+.curse-page .pic img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.curse-page .tutor .pic .meta {
+}
+.curse-page .course-meta {
+  padding: 40px 0px;
+}
+.curse-page .course-meta .title {
+  font-weight: 600;
+}
+.curse-page .course-meta .about {
+  text-align: justify;
+}
+.courses-videos {
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 20px 0px;
+}
+.courses-videos a {
+  margin: 10px 0px;
+}
+.courses-videos a .id {
+  background-color: #ea5252;
+  width: 50px;
+  height: 50px;
+  border-radius: 14px;
+  padding: 14px 20px;
+  box-sizing: border-box;
+  margin-right: 10px;
+}
+.courses-videos a .meta {
+}
+.courses-videos a .meta .lbl {
+}
+.courses-videos a .meta .dur {
+}
+.courses-videos a:hover {
+}
+.course-preview {
+  flex: 2;
+  margin-left: 20px;
+}
+.extras-block {
+}
+.chat {
+}
+.chat .messages {
+}
+
+.chat .messages .bubble {
+}
+
+.chat .messages .bubble .txt {
+}
+
+.chat .messages .bubble-mine {
+}
+
+a {
+  font-family: Ubuntu-Bold;
+  font-size: 14px;
+  line-height: 1.7;
+  color: #666666;
+  margin: 0px;
+  transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+}
+
+a:focus {
+  outline: none !important;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/*---------------------------------------------*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0px;
+}
+
+p {
+  font-family: Ubuntu-Bold;
+  font-size: 14px;
+  line-height: 1.7;
+  color: #666666;
+  margin: 0px;
+}
+
+ul,
+li {
+  margin: 0px;
+  list-style-type: none;
+}
+
+/*---------------------------------------------*/
+input {
+  outline: none;
+  border: none;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+textarea {
+  outline: none;
+  border: none;
+}
+
+textarea:focus,
+input:focus {
+  border-color: transparent !important;
+}
+
+input::-webkit-input-placeholder {
+  color: #bdbdd3;
+}
+input:-moz-placeholder {
+  color: #bdbdd3;
+}
+input::-moz-placeholder {
+  color: #bdbdd3;
+}
+input:-ms-input-placeholder {
+  color: #bdbdd3;
+}
+
+textarea::-webkit-input-placeholder {
+  color: #bdbdd3;
+}
+textarea:-moz-placeholder {
+  color: #bdbdd3;
+}
+textarea::-moz-placeholder {
+  color: #bdbdd3;
+}
+textarea:-ms-input-placeholder {
+  color: #bdbdd3;
+}
+
+/*---------------------------------------------*/
+button {
+  outline: none !important;
+  border: none;
+  background: transparent;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+iframe {
+  border: none !important;
+}
+
+/*---------------------------------------------*/
+.container {
+  max-width: 1200px;
+}
+
+/*//////////////////////////////////////////////////////////////////
+[ Contact ]*/
+
+.container-contact100 {
+  width: 100%;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  position: relative;
+}
+
+.wrap-contact100 {
+  width: 550px;
+  background: transparent;
+  padding: 50px 0px 160px 0px;
+}
+
+/*==================================================================
+[ Form ]*/
+
+.contact100-form {
+  width: 100%;
+}
+
+.contact100-form-title {
+  display: block;
+  font-size: 30px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 49px;
+  color: #6d6c6c;
+}
+
+/*------------------------------------------------------------------
+[ Input ]*/
+
+.wrap-input100 {
+  width: 100%;
+  background-color: #fff;
+  border-radius: 31px;
+  margin-bottom: 16px;
+  position: relative;
+  z-index: 1;
+}
+
+.input100 {
+  position: relative;
+  display: block;
+  width: 100%;
+  background: #fff;
+  border-radius: 31px;
+  font-family: Ubuntu-Bold;
+  font-size: 18px;
+  color: #8f8fa1;
+  line-height: 1.2;
+}
+
+/*---------------------------------------------*/
+input.input100 {
+  height: 62px;
+  padding: 0 35px 0 35px;
+}
+
+textarea.input100 {
+  min-height: 169px;
+  padding: 19px 35px 0 35px;
+}
+
+/*------------------------------------------------------------------
+[ Focus Input ]*/
+
+.focus-input100 {
+  display: block;
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+  border-radius: 31px;
+  background-color: #fff;
+  pointer-events: none;
+
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.input100:focus + .focus-input100 {
+  width: calc(100% + 20px);
+}
+
+/*------------------------------------------------------------------
+[ Button ]*/
+.button {
+  background-color: #ea5252; /* Green */
+  border-radius: 15px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 115%;
+}
+
+/*------------------------------------------------------------------
+[ Alert validate ]*/
+
+.validate-input {
+  position: relative;
+}
+
+.alert-validate::before {
+  content: attr(data-validate);
+  position: absolute;
+  z-index: 1000;
+  max-width: 70%;
+  background-color: #fff;
+  border: 1px solid #c80000;
+  border-radius: 14px;
+  padding: 4px 25px 4px 10px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+  right: 10px;
+  pointer-events: none;
+
+  font-family: Ubuntu-Bold;
+  color: #c80000;
+  font-size: 13px;
+  line-height: 1.4;
+  text-align: left;
+
+  visibility: hidden;
+  opacity: 0;
+
+  -webkit-transition: opacity 0.4s;
+  -o-transition: opacity 0.4s;
+  -moz-transition: opacity 0.4s;
+  transition: opacity 0.4s;
+}
+
+.alert-validate::after {
+  content: "\f06a";
+  font-family: FontAwesome;
+  display: block;
+  position: absolute;
+  z-index: 1100;
+  color: #c80000;
+  font-size: 16px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+  right: 16px;
+}
+
+.alert-validate:hover:before {
+  visibility: visible;
+  opacity: 1;
+}
+.artigo-page {
+  text-align: justify;
+}
+
+.artigo-title {
+  margin-top: 60px;
+}
+.line {
+  border-bottom: 2px solid red;
+}
+p {
+  font-size: 20px;
+}
